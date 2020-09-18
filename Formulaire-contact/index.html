@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!--fichier utilisateur-->
+        <script src="./js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Contactez-moi !</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="divider"></div>
+            <div class="heading">
+                <h2>Contactez-moi</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <form action="" method="post" id="contact-form" role="form">
+                        <div class="row justify-content-around ">
+                            <!--Prenom-->
+                            <div class="col-md-5">
+                                <label for="firstname">Prénom<span class="blue"> *</span></label>
+                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="votre prénom" value="">
+                                <p class="comments">
+                        
+                                </p>
+                            </div>
+                            <!--fin prenom-->
+
+                            <!--debut nom famille-->
+                            <div class="col-md-5">
+                                <label for="name">Nom de famille<span class="blue"> *</span></label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="votre nom de famille">
+                                <p class="comments">
+                                
+                                </p>
+                            </div>
+                            <!--fin nom de famille-->
+
+                            <!--debut email-->
+                            <div class="col-md-5">
+                                <label for="email">E-mail<span class="blue">  *</span></label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="votre E-mail">
+                                <p class="comments">
+                                    
+                                </p>
+                            </div>
+                            <!--fin email-->
+
+                            <!--debut numero de telephone-->
+                            <div class="col-md-5">
+                                <label for="phone">Numero de téléphone</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="votre numero de téléphone">
+                                <p class="comments">
+                                    
+                                </p>
+                            </div>
+                            <!--fin numero de telephone-->
+
+                            <!--debut Boite message-->
+                            <div class="col-11">
+                                <label for="message">Commentaire<span class="blue">  *</span></label>
+                                <textarea name="message" id="message" class="form-control" placeholder="votre message" cols="30" rows="4"></textarea>
+                                <p class="comments">
+                                    
+                                </p>
+                            </div>
+                            <!--fin boite message-->
+
+                            <!--message info-->
+                            <div class="col-11">
+                                <p class="blue">
+                                    <strong style="font-size: 0.9em;">* Ces informations sont requises</strong>
+                                </p>
+                            </div>
+                            <!--fin section info-->
+                            
+                            <!--Bouton submit-->
+                            <div class="col-11">
+                                <input type="submit" class="button1" value="Envoyer"> 
+                            </div>
+                            <!--fin bouton submit-->
+                        </div>
+                
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

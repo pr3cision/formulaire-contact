@@ -1,0 +1,70 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 70px 0px ;
+    background: #0069d6;
+}
+.divider{
+    width: 100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 10px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.blue{
+    color: #0069d6;
+}
+.form-control{
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.comments{
+    font-style: italic;
+    font-size: 1rem;
+    color: #d82c2e;
+    height: 1.2em;
+}
+#contact-form input[type=submit]{
+    margin: 0.3em auto 0px;
+    display: block;
+} 
+.button1{
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.3em;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+    background: #333;
+    border-color: #ffa500;
+}
+.thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
